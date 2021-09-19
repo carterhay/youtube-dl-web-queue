@@ -1,0 +1,9 @@
+
+version: "3.0"
+services:
+    dl-service:
+        build: .
+        ports:
+            - "5000:5000"
+        volumes:
+            - $PWD/download:/download

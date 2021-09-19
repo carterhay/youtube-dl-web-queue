@@ -3,12 +3,14 @@
 __pycache__/
 *.py[cod]
 *$py.class
+download/
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
+venv/
 env/
 build/
 develop-eggs/
